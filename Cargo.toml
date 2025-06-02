@@ -10,5 +10,5 @@ authors = ["60252419+TOwInOK@users.noreply.github.com"] # add more
 
 [workspace.dependencies]
 tracing = "0.1.41"
-tracing_subscriber = "0.3.19"
+tracing-subscriber = "0.3.19"
 tokio = { version = "1", features = ["full"] }
