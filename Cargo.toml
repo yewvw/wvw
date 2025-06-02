@@ -1,0 +1,14 @@
+[workspace]
+members = [ "wvw-cli", "wvw-core","wvw-io", "wvw-render"]
+resolver = "2"
+
+[workspace.package]
+version = "0.0.1"
+edition = "2024"
+license = "APACHE 2.0" # or MIT
+authors = ["60252419+TOwInOK@users.noreply.github.com"] # add more
+
+[workspace.dependencies]
+tracing = "0.1.41"
+tracing_subscriber = "0.3.19"
+tokio = { version = "1", features = ["full"] }

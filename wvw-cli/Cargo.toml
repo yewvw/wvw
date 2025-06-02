@@ -1,0 +1,12 @@
+[package]
+name = "wvw-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[dependencies]
+clap = { version = "4.5.39", features = ["derive"] }
+tokio = { workspace =  true, features = ["macros", "rt-multi-thread"] }
+tracing.workspace = true
+tracing_subscriber.workspace = true
